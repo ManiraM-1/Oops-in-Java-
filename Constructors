@@ -21,8 +21,8 @@ class Student{
 int roll_No;
 String name;
 Student(int r, String n){
-r = roll_No;
-n = name;
+roll_No = r;
+name = n;
 }
 void display(){
 System.out.println(name+" "+roll_No);
