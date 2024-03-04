@@ -4,7 +4,8 @@
 3. A java constructor cannot be abstract, static, final, and synchronized */
 
 class Bike1{
-Bike1(){
+Bike1(){  
+//Default Constructor 
 System.out.println("Bike is Created");
 }
 public static void main(String args[]){
@@ -13,3 +14,24 @@ Bike1 b = new Bike1;
 }
 
 // Output : Bike is Created
+
+//Parametrized Contructor
+
+class Student{
+int roll_No;
+String name;
+Student(int r, String n){
+r = roll_No;
+n = name;
+}
+void display(){
+System.out.println(name+" "+roll_No);
+}
+
+public static void main(String args[]){
+Student s1 = new Student(1, "Mani");
+Student s2 = new Student(2,"Ram");
+s1.display();
+s2.dispaly();
+}
+}
