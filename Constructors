@@ -3,3 +3,13 @@
 2. A Constructor must have no explicit return type
 3. A java constructor cannot be abstract, static, final, and synchronized */
 
+class Bike1{
+Bike1(){
+System.out.println("Bike is Created");
+}
+public static void main(String args[]){
+Bike1 b = new Bike1;
+}
+}
+
+// Output : Bike is Created
