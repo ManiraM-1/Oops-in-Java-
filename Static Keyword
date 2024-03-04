@@ -1,0 +1,25 @@
+//Static keyword in java is mainly used for memory managenment
+/* Static keyword can be used before 
+    1. Class
+    2. Nested Class
+    3. Variable (also known as class variable)
+    4. Method (also known as class method) */
+
+// 1. Static Variable 
+
+class Student{
+int rollNo; // instance variable
+String Name;
+static String College = "VIT"; //static variable 
+
+Student(int r, Sting n){ // Constructor
+rollNo = r;
+Name = n;
+}
+void display(){
+System.out.println(rollNo+" "+Name+" "+College);
+}
+}
+class Test1{
+
+}
